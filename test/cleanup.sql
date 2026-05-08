@@ -1,0 +1,9 @@
+--do not change this file
+DELETE FROM STORES
+WHERE EXISTS (
+    SELECT * FROM STORES
+    WHERE REVENUE = 3595 AND
+    LOCATION = 'Lexington' AND
+    EMPLOYEE_ID = 1015 AND
+    ID = 57
+)
