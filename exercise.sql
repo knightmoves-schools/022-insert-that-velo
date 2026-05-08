@@ -1,1 +1,2 @@
--- Add your SQL here
+INSERT INTO Stores (ID, LOCATION, EMPLOYEE_ID, REVENUE)
+VALUES (57, 'Lexington', 1015, 3595);
